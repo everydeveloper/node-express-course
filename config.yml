@@ -1,0 +1,90 @@
+title: Node and Express Intro
+tagline: Learn how to make a basic server with Node.js and Express.js
+description: Node.js gives you the ability to run JavaScript files on the server-side. Express is a library for Node.js, that allows you to make requests to different "endpoints" and get a response back.
+Learning Objectives
+1. Set up a project using Node.js and NPM
+2. Send JSON data using Express
+3. Test your API using PostMan
+4. Secure your routes with middleware
+
+template:
+  name: node-express-intro
+  repo: node-express-template
+  description: An introduction to Node.js and Express.js servers
+before:
+  - type: createIssue
+    title: Prepare your environment
+    body: 01-environment.md
+
+steps:
+  - title: Set up Node.js environment
+    description: Install and configure project
+    event: issues.closed
+    link: "{{ repoUrl }}/issues/1"
+    actions:
+      - type: createIssue
+        title: Start express server
+        body: 02-start-server.md
+
+  - title: Start Express server
+    description: Configure express and start server
+    event: issues.closed
+    link: "{{ repoUrl }}/issues/2"
+    actions:
+      - type: createIssue
+        title: Get JSON data
+        body: 03-get-json-data.md
+
+  - title: Get JSON data
+    description: Respond to GET request with JSON data
+    event: issues.closed
+    link: "{{ repoUrl }}/issues/3"
+    actions:
+      - type: createIssue
+        title: Use Variables in URL
+        body: 04-get-data-with-var.md
+
+  - title: Use Variables in URL
+    description: Use a variable in URL to make dynamic GET requests
+    event: issues.closed
+    link: "{{ repoUrl }}/issues/4"
+    actions:
+      - type: createIssue
+        title: Making a Post Route
+        body: 05-post-data.md
+
+  - title: Making a Post Route
+    description: Listen for POST requests, such as form data
+    event: issues.closed
+    link: "{{ repoUrl }}/issues/5"
+    actions:
+      - type: createIssue
+        title: Use Postman for POST request
+        body: 06-postman.md
+
+  - title: Use Postman for POST request
+    description: Use Postman to test post routes
+    event: issues.closed
+    link: "{{ repoUrl }}/issues/6"
+    actions:
+      - type: createIssue
+        title: Writing Express middleware
+        body: 07-middleware.md
+
+  - title: Writing Express middleware
+    description: Write custom middleware to protect routes
+    event: issues.closed
+    link: "{{ repoUrl }}/issues/7"
+    actions:
+      - type: createIssue
+        title: Using Express middleware
+        body: 08-using-middleware.md
+
+  - title: Using Express middleware
+    description: Including express middleware in protected routes
+    event: issues.closed
+    link: "{{ repoUrl }}/issues/8"
+    actions:
+      - type: createIssue
+        title: Finished
+        body: 09-finished.md
