@@ -1,6 +1,6 @@
 We can make GET requests all day through the browser url, but to make a POST request, we need to get more sophisticated! Open up the PostMan App, and look for an input field that says: "Enter Request Url". It is between a dropdown menu and a Send button.
 
-<img src='../postman.PNG' alt="screenshot of postman">
+<img src='{{ repoUrl }}/postman.PNG' alt="screenshot of postman">
  
 First, change the dropdown on the upper left from GET to POST. Next, enter our login url next to the dropdown (http://localhost:8000/login). Before you hit send, we need to change a few things.
  
