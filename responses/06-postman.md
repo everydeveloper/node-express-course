@@ -10,7 +10,7 @@ Next, click on the "Body" tab. In the dropdown below, change the value to "raw",
 ```json 
 {
 "username":"billyTheKid",
-"password":"superSecret"
+"password":"superSecretPassword"
 }
 ```
 Restart your server, to make sure you have the latest version running (with body-parser and our post function). Click send in PostMan, and you should get a positive response from the server. Try changing the password value in the body tab, to simulate the response for an incorrect password.
