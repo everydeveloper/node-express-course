@@ -3,7 +3,7 @@ tagline: Learn how to make a basic server with Node.js and Express.js
 description: Node.js gives you the ability to run JavaScript files on the server-side. Express is a library for Node.js, that allows you to make requests to different "endpoints" and get a response back.
 
 template:
-  name: node-express-intro
+  name: node-express-server-intro
   repo: node-express-template
   description: An introduction to Node.js and Express.js servers
 before:
