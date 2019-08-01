@@ -20,6 +20,9 @@ steps:
       - type: createIssue
         title: Start express server
         body: 02-start-server.md
+      - type: respond
+        with: 02-start-server.md
+        issue: 2 
 
   - title: Start Express server
     description: Configure express and start server
