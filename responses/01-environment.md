@@ -40,3 +40,6 @@ Open your package.json file and make sure you have something like this under you
   }
 ```
 The number on the right is the version you downloaded. Since we aren't tracking the actual `node_modules` folder, this section is a reference used to re-install the modules your application depends on.
+
+When you are finished with this section, close this issue and [click here]({{ repoUrl }}/issues/2)
+
