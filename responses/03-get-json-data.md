@@ -16,3 +16,5 @@ You just made your first endpoint! This function will respond to a GET request a
 
 Make sure you restart your server (since we changed the file) then open a browser and navigate to http://localhost:8000/users
 You should see a JSON file, returned from the server!
+
+When you are finished with this section, close this issue and [click here]({{ repoUrl }}/issues/4)

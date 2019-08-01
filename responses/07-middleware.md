@@ -23,3 +23,6 @@ const checkToken=function(req,res,next){
 Since we included this function in a different file, we should export it to use in our main server.js file. Add this line to the bottom of middleware.js
 ```javascript
 module.exports={checkToken:checkToken}
+```
+
+When you are finished with this section, close this issue and [click here]({{ repoUrl }}/issues/8)

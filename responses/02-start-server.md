@@ -19,3 +19,5 @@ If everything was successful, you should see the console.log message we supplied
 You just used Node.js to run a script outside of the browser!
 
 **Pro-tip:** You can reset the server automatically when you make changes using a tool called [nodemon](https://www.npmjs.com/package/nodemon)
+
+When you are finished with this section, close this issue and [click here]({{ repoUrl }}/issues/3)
