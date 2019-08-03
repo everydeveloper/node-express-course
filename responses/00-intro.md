@@ -6,4 +6,6 @@ In this tutorial you will learn how to:
 3. Test your API using PostMan
 4. Secure your routes with middleware
 
+When you see the 💡 symbol, the following info is a optional tip, or context.
+
 When you are ready to start, close this issue.

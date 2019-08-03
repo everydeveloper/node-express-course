@@ -7,7 +7,7 @@ The first line gives you access to the express library by searching your node_mo
 We can now access methods used for making a server by including their name after app. Add this to the bottom of server.js:
 ```javascript 
 app.listen(8000,function(){
-console.log(“server is running”)
+console.log("server is running")
 })
 ```
 The app.listen method will start up the server locally on the port you give as its first argument (in this case the base url is: http://localhost:8000)
@@ -16,8 +16,9 @@ But first we need to run the server.js file by entering this in the terminal: `n
  
 If everything was successful, you should see the console.log message we supplied in the callback: "server is running". This happens because the file is being run on our terminal. To end this process, push **CTRL**+**C**. Whenever you make changes to your server, you need exit and restart it.
 
-You just used Node.js to run a script outside of the browser!
-
-**Pro-tip:** You can reset the server automatically when you make changes using a tool called [nodemon](https://www.npmjs.com/package/nodemon)
-
-When you are finished with this section, close this issue and [click here]({{ repoUrl }}/issues/3)
+If your server is running, push your changes up to github to complete this step. 
+```
+git add server.js
+git commit -m"set up express server"
+git push origin master
+```

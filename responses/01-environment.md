@@ -48,6 +48,3 @@ git add .
 git commit -m"initial file setup"
 git push origin master
 ```
-
-Your [repository]({{ repoUrl }}) should look [like this]({{ repoUrl }}/tree/01).
-

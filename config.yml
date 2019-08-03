@@ -17,12 +17,13 @@ steps:
     event: issues.closed
     link: "{{ repoUrl }}/issues/1"
     actions:
+      - type: respond
+        with: 00-complete.md
+        issue: 1
       - type: createIssue
         title: Set up Node.js environment
         body: 01-environment.md
-      - type: getIssue
-        issue: 2 
-    
+
   - title: Set up Node.js environment
     description: Install and configure project
     event: push
@@ -31,42 +32,67 @@ steps:
       - type: createIssue
         title: Start express server
         body: 02-start-server.md
+      - type: closeIssue
+        issue: 2
+      - type: respond
+        with: 01-complete.md
+        issue: 2
 
   - title: Start Express server
     description: Configure express and start server
-    event: issues.closed
+    event: push
     link: "{{ repoUrl }}/issues/3"
     actions:
       - type: createIssue
         title: Get JSON data
         body: 03-get-json-data.md
+      - type: closeIssue
+        issue: 3
+      - type: respond
+        with: 02-complete.md
+        issue: 3
 
   - title: Get JSON data
     description: Respond to GET request with JSON data
-    event: issues.closed
+    event: push
     link: "{{ repoUrl }}/issues/4"
     actions:
       - type: createIssue
         title: Use Variables in URL
         body: 04-get-data-with-var.md
+      - type: closeIssue
+        issue: 4
+      - type: respond
+        with: 03-complete.md
+        issue: 4
 
   - title: Use Variables in URL
     description: Use a variable in URL to make dynamic GET requests
-    event: issues.closed
+    event: push
     link: "{{ repoUrl }}/issues/5"
     actions:
       - type: createIssue
         title: Making a Post Route
         body: 05-post-data.md
+      - type: closeIssue
+        issue: 5
+      - type: respond
+        with: 04-complete.md
+        issue: 5
 
   - title: Making a Post Route
     description: Listen for POST requests, such as form data
-    event: issues.closed
+    event: push
     link: "{{ repoUrl }}/issues/6"
     actions:
       - type: createIssue
         title: Use Postman for POST request
         body: 06-postman.md
+      - type: closeIssue
+        issue: 6
+      - type: respond
+        with: 05-complete.md
+        issue: 6
 
   - title: Use Postman for POST request
     description: Use Postman to test post routes
@@ -76,15 +102,23 @@ steps:
       - type: createIssue
         title: Writing Express middleware
         body: 07-middleware.md
+      - type: respond
+        with: 06-complete.md
+        issue: 7
 
   - title: Writing Express middleware
     description: Write custom middleware to protect routes
-    event: issues.closed
+    event: push
     link: "{{ repoUrl }}/issues/8"
     actions:
       - type: createIssue
         title: Using Express middleware
         body: 08-using-middleware.md
+      - type: closeIssue
+        issue: 8
+      - type: respond
+        with: 07-complete.md
+        issue: 8
 
   - title: Using Express middleware
     description: Including express middleware in protected routes
@@ -94,6 +128,11 @@ steps:
       - type: createIssue
         title: Finished
         body: 09-finished.md
+      - type: closeIssue
+        issue: 9
+      - type: respond
+        with: 08-complete.md
+        issue: 9
 
 tags:
   - Node
