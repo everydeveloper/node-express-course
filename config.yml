@@ -14,10 +14,10 @@ before:
 steps:
   - title: Set up Node.js environment
     description: Install and configure project
-    event: issues.closed
+    event: push
     link: "{{ repoUrl }}/issues/1"
     actions:
-      - type: createIssue
+      - type: respond
         title: Start express server
         body: 02-start-server.md
 
