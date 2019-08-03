@@ -13,7 +13,7 @@ You should get a version back from each of these commands, if it was correctly i
 ## Clone Template Repository
 By signing up for this course, a [template repository]({{ repoUrl }}) was created on your github account. Clone this repository locally on your computer and navigate to it by running:
 ```
-git clone {{ repoUrl }}
+git clone {{ repoUrl }}.git
 cd node-express-server-intro
 ```
 ## File Setup
