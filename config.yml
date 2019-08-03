@@ -122,7 +122,7 @@ steps:
 
   - title: Using Express middleware
     description: Including express middleware in protected routes
-    event: issues.closed
+    event: push
     link: "{{ repoUrl }}/issues/9"
     actions:
       - type: createIssue

@@ -8,4 +8,6 @@ In this tutorial you will learn how to:
 
 When you see the 💡 symbol, the following info is a optional tip, or context.
 
+This tutorial is interactive. Look for instructions on how to complete each step at the bottom of the issue. If the next step doesn't appear, try refreshing the page. 
+
 When you are ready to start, close this issue.
