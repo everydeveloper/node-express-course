@@ -14,7 +14,7 @@ before:
 steps:
   - title: Learning Objectives
     description: Overview of what you will learn in this course
-    event: issue.closed
+    event: issues.closed
     link: "{{ repoUrl }}/issues/1"
     actions:
       - type: respond
