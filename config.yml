@@ -12,7 +12,7 @@ before:
     body: 00-intro.md
 
 steps:
-   - title: Learning Objectives
+  - title: Learning Objectives
     description: Overview of what you will learn in this course
     event: issue.closed
     link: "{{ repoUrl }}/issues/0"
