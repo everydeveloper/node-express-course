@@ -15,7 +15,7 @@ steps:
   - title: Learning Objectives
     description: Overview of what you will learn in this course
     event: issue.closed
-    link: "{{ repoUrl }}/issues/0"
+    link: "{{ repoUrl }}/issues/1"
     actions:
       - type: respond
         with: 00-complete.md
@@ -27,7 +27,7 @@ steps:
   - title: Set up Node.js environment
     description: Install and configure project
     event: push
-    link: "{{ repoUrl }}/issues/1"
+    link: "{{ repoUrl }}/issues/2"
     actions:
       - type: createIssue
         title: Start express server
@@ -36,7 +36,7 @@ steps:
   - title: Start Express server
     description: Configure express and start server
     event: issues.closed
-    link: "{{ repoUrl }}/issues/2"
+    link: "{{ repoUrl }}/issues/3"
     actions:
       - type: createIssue
         title: Get JSON data
@@ -45,7 +45,7 @@ steps:
   - title: Get JSON data
     description: Respond to GET request with JSON data
     event: issues.closed
-    link: "{{ repoUrl }}/issues/3"
+    link: "{{ repoUrl }}/issues/4"
     actions:
       - type: createIssue
         title: Use Variables in URL
@@ -54,7 +54,7 @@ steps:
   - title: Use Variables in URL
     description: Use a variable in URL to make dynamic GET requests
     event: issues.closed
-    link: "{{ repoUrl }}/issues/4"
+    link: "{{ repoUrl }}/issues/5"
     actions:
       - type: createIssue
         title: Making a Post Route
@@ -63,7 +63,7 @@ steps:
   - title: Making a Post Route
     description: Listen for POST requests, such as form data
     event: issues.closed
-    link: "{{ repoUrl }}/issues/5"
+    link: "{{ repoUrl }}/issues/6"
     actions:
       - type: createIssue
         title: Use Postman for POST request
@@ -72,7 +72,7 @@ steps:
   - title: Use Postman for POST request
     description: Use Postman to test post routes
     event: issues.closed
-    link: "{{ repoUrl }}/issues/6"
+    link: "{{ repoUrl }}/issues/7"
     actions:
       - type: createIssue
         title: Writing Express middleware
@@ -81,7 +81,7 @@ steps:
   - title: Writing Express middleware
     description: Write custom middleware to protect routes
     event: issues.closed
-    link: "{{ repoUrl }}/issues/7"
+    link: "{{ repoUrl }}/issues/8"
     actions:
       - type: createIssue
         title: Using Express middleware
@@ -90,7 +90,7 @@ steps:
   - title: Using Express middleware
     description: Including express middleware in protected routes
     event: issues.closed
-    link: "{{ repoUrl }}/issues/8"
+    link: "{{ repoUrl }}/issues/9"
     actions:
       - type: createIssue
         title: Finished
