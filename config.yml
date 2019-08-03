@@ -17,13 +17,12 @@ steps:
     event: issues.closed
     link: "{{ repoUrl }}/issues/1"
     actions:
-      - type: respond
-        with: 00-complete.md
-        issue: 1
       - type: createIssue
-        title: Start express server
+        title: Set up Node.js environment
         body: 01-environment.md
-
+      - type: getIssue
+        issue: 2 
+    
   - title: Set up Node.js environment
     description: Install and configure project
     event: push
