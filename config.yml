@@ -9,9 +9,21 @@ template:
 before:
   - type: createIssue
     title: Prepare your environment
-    body: 01-environment.md
+    body: 00-intro.md
 
 steps:
+   - title: Learning Objectives
+    description: Overview of what you will learn in this course
+    event: issue.closed
+    link: "{{ repoUrl }}/issues/0"
+    actions:
+      - type: respond
+        with: 00-complete.md
+        issue: 1
+      - type: createIssue
+        title: Start express server
+        body: 01-environment.md
+
   - title: Set up Node.js environment
     description: Install and configure project
     event: push
