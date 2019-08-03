@@ -17,7 +17,7 @@ steps:
     event: push
     link: "{{ repoUrl }}/issues/1"
     actions:
-      - type: respond
+      - type: createIssue
         title: Start express server
         body: 02-start-server.md
 
