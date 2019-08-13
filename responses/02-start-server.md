@@ -16,7 +16,7 @@ But first we need to run the server.js file by entering this in the terminal: `n
  
 If everything was successful, you should see the console.log message we supplied in the callback: "server is running". This happens because the file is being run on our terminal. To end this process, push **CTRL**+**C**. Whenever you make changes to your server, you need exit and restart it.
 
-If your server is running, push your changes up to github to complete this step. 
+Once your server is working, push your changes up to GitHub to complete this step. 
 ```
 git add server.js
 git commit -m"set up express server"
