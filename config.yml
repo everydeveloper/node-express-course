@@ -4,7 +4,7 @@ description: Node.js gives you the ability to run JavaScript files on the server
 
 template:
   name: node-express-server-intro
-  repo: node-express-server-template
+  repo: node-express-template
   description: An introduction to Node.js and Express.js servers
 before:
   - type: createIssue
