@@ -24,7 +24,7 @@ Since we included this function in a different file, we should export it to use 
 ```javascript
 module.exports={checkToken:checkToken}
 ```
-Let's push these changes to github:
+Let's push these changes to GitHub:
 ```
 git add middleware.js
 git commit -m"add checkToken function"
