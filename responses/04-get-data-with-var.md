@@ -10,7 +10,7 @@ Now check the terminal for the console.log of req.params.id. You should see the 
 
 Notice that we didn't actually return anything from the server this time, so the browser should appear unresponsive.
 
-After testing that it workes, push your changes your github repo:
+After testing that it works, push your changes your GitHub repo:
 ```
 git add server.js
 git commit -m"add dynamic GET route"
