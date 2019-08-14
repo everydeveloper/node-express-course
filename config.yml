@@ -106,33 +106,16 @@ steps:
         with: 06-complete.md
         issue: 7
 
-  - title: Writing Express middleware
-    description: Write custom middleware to protect routes
-    event: push
+  - title: Your next steps
+    description: See what else you can learn about Node and Express
+    event: issue_comment
     link: "{{ repoUrl }}/issues/8"
     actions:
-      - type: createIssue
-        title: Using Express middleware
-        body: 08-using-middleware.md
       - type: closeIssue
         issue: 8
-      - type: respond
-        with: 07-complete.md
-        issue: 8
-
-  - title: Using Express middleware
-    description: Including express middleware in protected routes
-    event: push
-    link: "{{ repoUrl }}/issues/9"
-    actions:
-      - type: createIssue
-        title: Finished
-        body: 09-finished.md
-      - type: closeIssue
-        issue: 9
       - type: respond
         with: 08-complete.md
-        issue: 9
+        issue: 8
 
 tags:
   - Node
