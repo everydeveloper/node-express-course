@@ -101,7 +101,7 @@ steps:
     actions:
       - type: createIssue
         title: Writing Express middleware
-        body: 07-middleware.md
+        body: 08-next-steps.md
       - type: respond
         with: 06-complete.md
         issue: 7
