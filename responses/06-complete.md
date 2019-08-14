@@ -1,5 +1,9 @@
-Good Job! 🚀 You can use Postman to test your server, without the need of building a front-end.
+Good Job! 🚀 Postman can be a really helpful testing tool as you continue your programming journey.
 
-Try changing the password value in the body tab, to simulate the response for an incorrect password.
+Before closing out this course, try a few more things in Postman:
 
-[Click here]({{ repoUrl }}/issues/8) to learn how to protect routes with middleware.
+- [ ] Change the password value in the body tab to see what an incorrect password response looks like
+- [ ] Try our earlier requests that we made from the browser (remember to switch to GET in Postman)
+- [ ] See if you can make a new endpoint in the server.js code, then call it from Postman
+
+[Click here]({{ repoUrl }}/issues/8) for one final issue to plan your next steps.
