@@ -12,7 +12,27 @@ app.get('/users', function(req,res){
  	})
 })
 ```
-Let's save your changes on github:
+Overall your file should look like this:
+```javascript
+const express = require('express');
+const app = express();
+
+const mockUserData=[
+	{name:'Mark'},
+	{name:'Jill'}
+]
+
+app.get('/users',function(req,res){
+	res.json({
+		success: true,
+		message: 'successfully got users. Nice!',
+		users: mockUserData
+	})
+})
+
+app.listen(8000,function(){console.log('server is listening')})
+```
+Let's save your changes on GitHub:
 ```
 git add server.js
 git commit -m"add first GET route"

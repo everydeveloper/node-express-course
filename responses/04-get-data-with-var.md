@@ -1,14 +1,20 @@
 In Express, words with a colon in front of them in the url are treated as variables. You can access the value of each variable through req.params, like this:
 ```javascript 
 app.get('/users/:id',function(req,res){
-console.log(req.params.id)
+	console.log(req.params.id)
+	res.json({
+		success: true,
+		message: 'got one user',
+		user: req.params.id
+	})
 })
 ```
 
-After adding this code to your script.js file, and restarting the server, paste this into your browser url: http://localhost:8000/users/mark
-Now check the terminal for the console.log of req.params.id. You should see the name 'mark', since it is the value we passed in place of the 'id' variable.
+_Let's test it out!_
 
-Notice that we didn't actually return anything from the server this time, so the browser should appear unresponsive.
+Add the function above your `app.listen` function in your server.js file, restart the server, and paste this into your browser url: http://localhost:8000/users/mark
+
+Now check the terminal for the console.log of req.params.id. You should see the name 'mark', since it is the value we passed in place of the 'id' variable. Since we are running this in the terminal, our console.log will appear there (instead of the browser).
 
 After testing that it works, push your changes your GitHub repo:
 ```

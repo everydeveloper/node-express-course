@@ -20,11 +20,10 @@ cd node-express-server-intro
 Open the folder you just cloned in your favorite text editor.
 You should have a few files already created:
 ```
-middleware.js
 .gitignore
 server.js
 ```
-The server file will be the main one we use, and middleware will be used near the end. In the .gitignore folder, you should see this line at the top `/node_modules`
+The server file will be the main one we use. In the .gitignore folder, you should see this line at the top `/node_modules`
 
 Express (the server library we will install) is a node_module. Rather than track the entire library in our git history, we will create a package.json file, which will allow us to install and save node modules.
 
@@ -44,7 +43,7 @@ In your package.json file and make sure you have something like this under your 
 ```
 The number on the right is the version you downloaded. Since we aren't tracking the actual `node_modules` folder, this section is a reference used to re-install the modules your application depends on.
 
-When you are finished with this section, push your file to github for the next step:
+When you are finished with this section, push your file to GitHub for the next step:
 ```
 git add .
 git commit -m "initial file setup"
