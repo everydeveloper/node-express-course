@@ -14,7 +14,7 @@ You should get a version back from each of these commands. If you get an error, 
 By signing up for this course, a [template repository]({{ repoUrl }}) was created on your GitHub account. Clone this repository locally on your computer and navigate to it by running:
 ```
 git clone {{ repoUrl }}.git
-cd node-express-server-intro
+cd node-express-course
 ```
 ## File Setup
 Open the folder you just cloned in your favorite text editor.
