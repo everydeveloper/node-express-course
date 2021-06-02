@@ -1,4 +1,4 @@
-# Node and Express Server Tutorial
+# Node.js and Express Server Tutorial
 Traditionally, JavaScript is a browser-side programming language. However, Node.js gives you the ability to run JavaScript files on the server-side. Express is a library for Node.js, that allows you to make requests to different "endpoints" and get a response back.
 
 In this tutorial you will learn how to:
